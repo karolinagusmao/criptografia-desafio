@@ -82,13 +82,13 @@ body, textarea, button{
     background-color: #8075f8;
     border: none;
     color: white;
-    padding: 10px 20px;
+    padding: 15px 25px; /* Ajuste o padding para aumentar o tamanho do botão */
     text-decoration: none;
     font-size: 13px;
     letter-spacing: 0.1rem;
     cursor: pointer;
     text-transform: uppercase;
-    border-radius: 5px;  
+    border-radius: 25px; /* Ajuste o border-radius para deixar os cantos mais arredondados */
     margin: 10px;
     transition: all 0.3s ease;
 }

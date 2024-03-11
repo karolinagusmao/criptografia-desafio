@@ -12,9 +12,3 @@ function limpeza(){
 	document.getElementById("entrada").value = "";
 	document.getElementById("aviso").innerHTML = "&nbsp";
 }
-
-function share(){
-	if (navigator.share !== undefined) {
-		navigator.share({title: "", text: "", url: "",})
-	}
-};
